@@ -1,0 +1,168 @@
+import React from "react";
+import {ImLinkedin} from 'react-icons/im';
+import {FaTwitter} from 'react-icons/fa';
+import {GrInstagram} from 'react-icons/gr';
+import {BsGithub, BsFacebook} from 'react-icons/bs';
+
+const Footer = () => {
+  return (
+    <div className=" bg-gray-100 font-chakra-petch m-auto">
+
+      <div className="grid md:grid-cols-3 border-b-2 border-t-2 m-auto border-gray-300">
+        {/* contact  */}
+        <div className="p-5">
+          <div className="border-b-4 border-orange-600 w-24 pb-3">
+            <h1 className="text-lg font-bold">Contact</h1>
+          </div>
+          <div className="pt-4">
+            <p className="mb-6">
+              <span className="font-bold">Address: </span>Airoli , Navi Mumbai,
+              Maharashtra.
+            </p>
+            <p className="mb-6">
+              <span className="font-bold">Phone:</span>{" "}
+              <a href="tel:+919987591440" className="text-blue-600 font-md text-md">
+                Call us at +919987591440
+              </a>
+            </p>
+            <p className="mb-6">
+              <span className="font-bold">Email:</span>{" "}
+              <a
+                href="yashpanchal5320@gmail.com"
+                className="text-blue-600 font-light text-md"
+              >
+                {" "}
+                Email us at yashpanchal5320@gmail.com
+              </a>
+            </p>
+            <p className="mb-6">
+              <span className="font-bold">Hours:</span> From 10 AM To 8 PM
+            </p>
+            <div className="mb-6">
+              <p className="font-bold">Follow the developer : </p>
+              <div className="flex gap-4 py-5 text-2xl cursor-pointer">
+                <a href="https://www.linkedin.com/in/yash-panchal-464801249/">
+                  <ImLinkedin className="text-blue-700"/>
+                </a>
+
+                <a href="https://github.com/Sen-Pai-11">
+                  <BsGithub className="text-black" />
+                </a>
+
+                <a href="/Shop">
+                  <BsFacebook className="text-blue-700" />
+                </a>
+
+                <a href="/">
+                  <FaTwitter className="text-blue-700" />
+                </a>
+                <a href="/">
+                  <GrInstagram className="text-white bg-red-700 p-1 rounded-lg" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+       <div className="flex flex-row">
+          {/* About  */}
+          <div className="p-5">
+            <div className="border-b-4 border-orange-600 w-24 pb-3">
+              <h1 className="text-lg font-bold">About</h1>
+            </div>
+            <div className="flex flex-wrap flex-col pt-4 text-gray-700">
+              <a href="/About" className="mb-7 hover:text-blue-800">
+                About Us
+              </a>
+              <a href="/" className="mb-7 hover:text-blue-800">
+                Delivery
+              </a>
+              <a href="/" className="mb-7 hover:text-blue-800">
+                Privacy Policy
+              </a>
+              <a href="/" className="mb-7 hover:text-blue-800">
+                Terms & Conditions
+              </a>
+              <a href="/" className="mb-7 hover:text-blue-800">
+                Fee Policy
+              </a>
+            </div>
+          </div>
+
+          {/* Account  */}
+          <div className="p-5">
+            <div className="border-b-4 border-orange-600 w-24 pb-3">
+              <h1 className="text-lg font-bold">Account</h1>
+            </div>
+            <div className="flex flex-wrap flex-col pt-4 text-gray-700">
+              <a href="/Login" className="mb-7 hover:text-blue-800">
+                Profile
+              </a>
+              <a href="/Cart" className="mb-7 hover:text-blue-800">
+                View Cart
+              </a>
+              <a href="/About" className="mb-7 hover:text-blue-800">
+                Help
+              </a>
+              <a href="/Checkout" className="mb-7 hover:text-blue-800">
+                Payments
+              </a>
+              <a href="/Wishlist" className="mb-7 hover:text-blue-800">
+                My Wishlist
+              </a>
+              <a href="/" className="mb-7 hover:text-blue-800">
+                Coupons
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Install App */}
+        <div className="p-5">
+          <div className="border-b-4 border-orange-600 w-24 pb-3">
+            <h1 className="text-lg font-bold">Install App</h1>
+          </div>
+          <div className="flex flex-wrap flex-col pt-4 font-medium">
+            <p>Available On Google Play Services & App Store</p>
+            <a href="/">
+              <img
+                src="/assets/pay/play.jpg"
+                alt="PlayStoreLogo"
+                className="w-56 border-2 border-green-600 rounded-2xl mb-3 mt-3 hover:-translate-y-1.5 transition-all  "
+              />
+            </a>
+            <a href="/">
+              <img
+                src="/assets/pay/app.jpg"
+                alt="AppStoreLogo"
+                className="w-56 border-2 border-green-600 rounded-2xl mb-3 hover:-translate-y-1.5 transition-all "
+              />
+            </a>
+            <p>Payment Methods</p>
+            <a href="/Checkout">
+              <img
+                src="/assets/pay/pay.png"
+                alt="AppStoreLogo"
+                className="w-64 border-2 border-green-600 rounded-2xl mt-3 p-4 hover:-translate-y-1.5 transition-all "
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex justify-between h-10 m-6 tracking-tight">
+        <div className="text-sm text-slate-600">
+          <p>©Developed by Yash Panchal 2024-25</p>
+        </div>
+        <div className="text-sm text-slate-600 cursor-pointer">
+          <p>
+            Privacy Policy <span className="p-1">Terms of Use</span>{" "}
+            <span className="p-1">Contact Us</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
