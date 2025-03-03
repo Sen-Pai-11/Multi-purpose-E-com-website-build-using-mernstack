@@ -9,7 +9,7 @@
 5. [Usage](#usage)
 6. [Routes and Components](#routes-and-components)
 7. [Contributing](#contributing)
-8. [Project Admins](#project-admins)
+8. [Project Admin](#project-admin)
 
 ### 1. Project Overview <a name="project-overview"></a>
 
@@ -44,8 +44,6 @@ Provide a brief description of your project's directory structure. For example:
 Explain how to install and set up the project locally. Include steps for setting up the database, running the server, and starting the frontend development server.
 
 ```bash
-# Clone the repository
-git clone https://github.com/shubhanshurav/E-Shop.git
 
 # Navigate to the project directory
 cd your-repo
@@ -105,25 +103,10 @@ When submitting issues, provide detailed information, including:
 - Steps to reproduce the issue (if applicable).
 - Screenshots or code snippets that help illustrate the problem (if applicable).
 
-### Pull Requests
 
-We encourage you to submit pull requests for bug fixes, enhancements, or new features. To contribute via pull request, please follow these steps:
+### 8. Project Admin <a name="project-admins"></a>
 
-1. Fork the repository to your own GitHub account.
-2. Create a new branch for your changes: `git checkout -b feature/your-feature-name`.
-3. Make your changes, following the project's coding style and guidelines.
-4. Test your changes thoroughly to ensure they do not introduce new issues.
-5. Commit your changes with clear and concise messages.
-6. Push your branch to your forked repository: `git push origin feature/your-feature-name`.
-7. Create a pull request from your branch to the main repository's `main` branch.
-
-Your pull request will be reviewed by the project maintainers. Please be patient during the review process, and be ready to address any feedback or comments.
-
-Thank you for considering contributing to Apna Fashion Store, and we appreciate your support!
-
-### 8. Project Admins <a name="project-admins"></a>
-
-#### Shubhanshu Rao
+#### Yash Panchal
 
 <p>
   <img src="Yash img.jpeg" alt="Yash Panchal" width="150" height="150">
